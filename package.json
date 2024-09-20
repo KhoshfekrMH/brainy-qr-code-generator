@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "just simple open-source node based qr-code generator",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,10 @@
   "dependencies": {
     "inquirer": "^11.0.2",
     "qr-image": "^3.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.0",
+    "eslint": "^9.11.0",
+    "globals": "^15.9.0"
   }
 }
