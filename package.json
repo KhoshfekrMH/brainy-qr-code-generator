@@ -1,0 +1,15 @@
+{
+  "name": "brainy-qr-code-generator",
+  "version": "1.0.0",
+  "description": "just simple open-source node based qr-code generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khoshfekr",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^11.0.2",
+    "qr-image": "^3.2.0"
+  }
+}
